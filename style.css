@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.baslik-bölümü {
+    text-align: center;
+    padding: 2rem;
+    background-color: rgb(128, 154, 111);
+}
+
+.baslik-bölümü .navbar-top{
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.baslik-bölümü .navbar-top a:nth-child(1){
+    color: blue;
+  }
+
+.baslik-bölümü .navbar-top a:nth-child(2){
+    color: rgba(180, 4, 4, 0.932);
+  }
+
+  .baslik-bölümü .navbar-top a:nth-child(4){
+    color: tomato;
+  }
+
+.navbar-main {
+    background-color: rgb(213, 216, 181);
+    text-align: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(162, 91, 91);
+    border-radius: 10px;
+    padding: 1.5rem;
+}
+
+.navbar-main .menu-main{
+   display: inline;
+   padding: 1.2rem;
+}
+
+.navbar-main .menu-main a{
+    border: 2px solid rgb(204, 156, 117);
+    border-radius: 10px;
+    color: rgb(162, 91, 91);
+    background-color: rgb(204, 156, 117);
+    text-decoration: none;
+ }
+
+ .navbar-main .menu-main a:hover{
+    color: rgb(213, 216, 181);
+    text-decoration: underline;
+ }
+
+ body {
+    background-color: rgb(213, 216, 181);
+ }
+
+ main {
+    margin: 20px;
+    padding-top: 5vh;
+    text-align: center;
+    float: right;
+    width: 100%;
+    padding: 2rem;
+ }
+
+ main p{
+    padding: 1rem;
+ }
+
+
+
